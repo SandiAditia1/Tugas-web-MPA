@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header-about">
+        <nav>
+            <a class="logo"><samp>Smart</samp>school.</a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT </a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+</section>
+<section class="deskripsi">
+    <div>
+        <h1>Tentang Smartschool</h1>
+        <p>Dunia telah berubah, dimana dunia digital telah menjadi bagian dari kehidupan kita sehari-hari, baik secara ekonomi, sosial, budaya maupun politik. Anak-anak kita kenal sebagai “digital-natives”, dimana sejak kelahiran, mereka telah terpapar oleh gencarnya perkembangan dunia digital ini, sehingga mereka sangat fasih belajar tentang perkembangan internet, animasi, komputer, dan segala yang terkait teknologi. Dunia digital telah memberi begitu banyak manfaat serta kemudahan-kemudahan dalam kehidupan kita.<br>
+            <br>
+            Pengguna internet di Indonesia saat ini berjumlah 143,26 juta (APJII, 2017), dimana sekitar 66% pengguna adalah anak anak muda dari kategori 13 hingga 34 tahun. Di tahun 2014, penelitian UNICEF melaporkan bahwa terdapat 30 juta anak anak Indonesia sebagai pengguna internet, dimana saat ini kemungkinan angka tersebut telah meningkat.<br>
+            <br>
+            Walau masih ada kesenjangan digital antara anak/remaja di kota dengan mereka di pedesaan, kita perlu melakukan usaha keras untuk perlindungan anak di dunia internet, mengingat banyaknya konten negatif yang ada disana, yang memungkinkan anak anak kita terpapar isu-isu anak/remaja, seperti Cyberbullying, Adiksi Pornografi, Adiksi Online Games, Cybercrime, serta isu-isu lain yang terus menerus berkembang sebagai dampak dari berkembangnya dunia digital ini. Peristiwa beberapa saat yang lalu dimana kita dikejutkan dengan ditemukannya “Lolly Candy Group” di Facebook, yang merupakan kumpulan orang-orang yang memanfaatkan foto-foto dan video-video anak untuk kepentingan yang negatif, dengan jumlah lebih dari 7000 anggota, telah menjadikan anak sebagai objek eksploitasi mereka.</p>
+
+            <h1>Tujuan SmartSchool</h1>
+                <p>1. Meningkatkan kesadaran pada anak, orang tua, guru dan masyarakat terkait dengan isu-isu dunia online.<br>
+                    <br>
+                    2. Memberikan pemahaman mengenai pentingnya etika dalam dunia online.<br>
+                    <br>
+                    3. Membangun sikap positif pada anak, guru, orangtua dan masyarakat dalam menghadapi kemajuan di era digital.<br>
+                    <br>
+                    4. Meningkatkan pengetahuan mengenai perlindungan anak di dunia online melalui Training of Trainer (ToT) kepada warga sekolah yang akan disampaikan ke lingkungan sekitarnya.</p>
+    </div>
+    <img src="assets/about.jpg" alt="">
+
+</section>
+
+<footer>
+    <p>Smart School</p>
+    <p>Dengan adanya sistem <span>smart school</span> (atau Sekolah Pintar)dapat memberikan banyak manfaat ke semua pihak yang terkait sekolah.</p>
+    <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+    </div>
+    <p class="end">Copy Right, Cisarua 2022</p>
+</footer>
+
+<script>
+    var navLink = document.getElementById("navLink");
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

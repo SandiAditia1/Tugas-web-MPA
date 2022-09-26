@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a class="logo"><samp>Smart</samp>school.</a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT </a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Smart School Indonesia</h1>
+            <p>Smart School merupakan penerapan teknologi pendidikan yang berbasiskan data yang merangkul semua stakeholder pendidikan,<br> mulai dari guru, siswa, sekolah, pemerintah, dan orang tua murid.</p>
+            <a href="" class="hero-btn">Selengkapnya</a>
+        </div>
+
+</section>
+
+<section class="container_deskripsi">
+    <img src="assets/smart2.png" alt="">
+    <div>
+        <h1>Apa Itu Smart SmartSchool</h1>
+        <p>Smartschool adalah sistem yang diciptakan untuk mendigitalkan seluruh aspek yang ada di sekolah, meliputi pembelajaran, manajemen sarana dan prasarana sekolah, dengan tujuan untuk mempermudah kegiatan belajar mengajar di sekolah.<br>
+            <br>
+            Konsep smart school merupakan ekosistem pendidikan sekolah yang menerapkan kegiatan pembelajaran berbasis teknologi, mulai dari proses belajar mengajar hingga manajemen dalam sekolah tersebut</p>
+    </div>
+    
+    
+</section>
+
+<footer>
+    <p>Smart School</p>
+    <p>Dengan adanya sistem <span>smart school</span> (atau Sekolah Pintar)dapat memberikan banyak manfaat ke semua pihak yang terkait sekolah.</p>
+    <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+    </div>
+    <p class="end">CopyRight, Cisarua 2022</p>
+</footer>
+
+<script>
+    var navLink = document.getElementById("navLink");
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header-contact">
+        <nav>
+            <a class="logo"><samp>Smart</samp>school.</a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT </a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+</section>
+
+<section class="contact">
+    <div class="container contact_container">
+        <aside class="contact_aside">
+            <div class="aside_img">
+                <img src="assets/contact.png" alt="">
+            </div>
+            <h2>Hubungi kami</h2>
+            <p>Hubungi kami jika ada pesan atau saran yang ingin disampaikan</p>
+            <ul class="contact_detail">
+                <li><i class="fa fa-phone" aria-hidden="true"></i><h5>082119399874</h5></li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i><h5>sandiaditia13@gmail.com</h5></li>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i><h5>Cisarua, Bandung Barat</h5></li>
+            </ul>
+            <ul class="contact_social">
+                <li><a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://whatsapp.com"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+            </ul>
+        </aside>
+        
+        <form>
+            <input type="text" name="nama" placeholder="Nama" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="7" placeholder="Pesan atau Saran" required></textarea>
+            <button type="submit" class="hero-btn">Kirim</button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>Smart School</p>
+    <p>Dengan adanya sistem <span>smart school</span> (atau Sekolah Pintar)dapat memberikan banyak manfaat ke semua pihak yang terkait sekolah.</p>
+    <p class="end">Copy Right, Cisarua 2022</p>
+</footer>
+
+<script>
+    var navLink = document.getElementById("navLink");
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header-fitur">
+        <nav>
+            <a class="logo"><samp>Smart</samp>school.</a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT </a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+</section>
+
+<section class="fitur">
+    <h1>Fitur <samp>Smart</samp>School</h1>
+    <div class="cool">
+        <div>
+            <h3>absen</h3>
+            <p>Guru mapel bisa melakukan absen dengan mudah ke seluruh siswa hanya dengan menggunakan smartphone. Fitur absen ini terintegrasi langsung dengan handphone orang tua siswa yang bersangkutan.</p>
+        </div>
+        <div>
+            <h3>E-Book</h3>
+            <p>Sistem ini sudah dilengkapi dengan fitur E-Book, siswa dapat belajar atau membaca buku tanpa harus ke perpustakaan, dan sistem ini sudah user frendly dan dapat di akses melalui mobile smartphone</p>
+        </div>
+        <div>
+            <h3>latihan soal</h3>
+            <p>Smart School sudah dilengkapi dengan fitur latihan soal untuk mengasah siswa dalam penguasaan materi pelajaran serta guru dapat memanfaatkan media ini sebagai simulasi ulangan atau ujian. Fitur ini dirancang khusus untuk menghitung nilai secara otomatis, merekap nilai otomatis, menentukan durasi waktu latihan soal</p>
+        </div>
+        <div>
+            <h3>ulangan</h3>
+            <p>Fitur yang terbaik di Smart School adalah fitur ulangan harian, ulangan semester, sistem ini juga dapat meghitung nilai secara otomatis, merekap nilai secara otomatis dan ada fitur stop start ulangan serta dapat menentukan durasi waktu setiap ulangan</p>
+        </div>
+        <div>
+            <h3>penyimpanan online</h3>
+            <p>Semua data akan tersimpan secara online dan tertata, semua record siswa,materi,guru,nilai akan tersimpan dengan baik dan dapat dipanggil atau digunakan sewaktu waktu</p>
+        </div>
+        <div>
+            <h3>keamanan</h3>
+            <p>Sistem Smart School sudah dilengkapi dengan keamanan data dan auto backup data, tidak perlu kawatir terhadap keamanan data di Smart School</p>
+        </div>
+        
+ 
+    </div>
+</section>
+
+<footer>
+    <p>Smart School</p>
+    <p>Dengan adanya sistem <span>smart school</span> (atau Sekolah Pintar)dapat memberikan banyak manfaat ke semua pihak yang terkait sekolah.</p>
+    <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+    </div>
+    <p class="end">Copy Right, Cisarua 2022</p>
+</footer>
+
+<script>
+    var navLink = document.getElementById("navLink");
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
